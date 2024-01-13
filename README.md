@@ -97,3 +97,15 @@ Here are some concepts of version control
              - Once the rebase is complete without conflicts, your feature branch now includes all the changes from the main branch, and the commit history appears more linear.
              
         It's important to note that rebase should be used with caution, especially on shared branches. Rewriting history can make collaboration more challenging, as it alters commit IDs. Therefore, it's generally recommended to use rebase on local feature branches before sharing them with others.
+
+ ## Explain in simple terms git cherry-pick and the command for it
+
+    Git cherry-pick and the command for it 
+     In simple terms, ‘git cherry-pick’ is a command that allows you to pick and apply specific commits from one branch and apply them onto another branch. It's like selecting and copying individual changes.
+   Here's a basic idea:
+    Selecting Specific Commits:
+     If you have a commit on one branch that you want on another, you can use ‘git cherry-pick’ to grab just that commit.
+      Commands:
+      The basic command for ‘git cherry-pick’ is : 
+             ```git cherry-pick <commit_hash>``` where commit_hash is the unique identify of the commit you are targeting 
+
